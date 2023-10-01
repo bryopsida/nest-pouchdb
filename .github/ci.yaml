@@ -1,0 +1,28 @@
+name: CI
+on:
+  push:
+    branches: ['main']
+  pull_request:
+    branches: ['main']
+
+jobs:
+  node-test:
+    permissions:
+      contents: read
+      actions: read
+      security-events: write
+    name: 'Validate'
+    uses: curium-rocks/flows/.github/workflows/node-ts.yml@main
+    secrets:
+      SONARQUBE_KEY: ${{ secrets.SONARQUBE_KEY }}
+  node-docs:
+    needs:
+      - node-test
+    permissions:
+      contents: read
+      pages: write
+      deployments: write
+    name: 'Docs'
+    uses: curium-rocks/flows/.github/workflows/npm-publish-docs.yml@main
+    with:
+      publish: false
