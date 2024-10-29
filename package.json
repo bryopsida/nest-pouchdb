@@ -29,7 +29,7 @@
     "@nestjs/platform-express": "^10.0.0",
     "@nestjs/testing": "10.x",
     "@types/jest": "^29.5.2",
-    "@types/node": "20.x",
+    "@types/node": "22.x",
     "@types/pouchdb": "^6.4.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
