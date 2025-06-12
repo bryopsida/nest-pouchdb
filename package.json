@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@compodoc/compodoc": "^1.1.21",
-    "@jest/globals": "^29.5.0",
+    "@jest/globals": "^30.0.0",
     "@nestjs/microservices": "11.x",
     "@nestjs/platform-express": "^11.0.0",
     "@nestjs/testing": "11.x",
@@ -36,7 +36,7 @@
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^10.0.0",
     "eslint-config-standard": "^17.1.0",
-    "jest": "29.x.x",
+    "jest": "30.x",
     "prettier": "^3.0.0",
     "testcontainers": "^11.0.0",
     "ts-jest": "29.x.x",
