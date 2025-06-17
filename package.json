@@ -28,7 +28,7 @@
     "@nestjs/microservices": "11.x",
     "@nestjs/platform-express": "^11.0.0",
     "@nestjs/testing": "11.x",
-    "@types/jest": "^29.5.2",
+    "@types/jest": "^30.0.0",
     "@types/node": "22.x",
     "@types/pouchdb": "^6.4.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
