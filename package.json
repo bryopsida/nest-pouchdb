@@ -43,8 +43,8 @@
     "typescript": "5.x"
   },
   "dependencies": {
-    "@nestjs/common": "11.1.4",
-    "@nestjs/core": "11.1.4",
+    "@nestjs/common": "11.1.5",
+    "@nestjs/core": "11.1.5",
     "pouchdb": "^9.0.0"
   },
   "jest": {
