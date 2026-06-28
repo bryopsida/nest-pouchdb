@@ -23,7 +23,7 @@
     "lint:fix": "eslint --ext .ts src/ --fix && prettier --write ."
   },
   "devDependencies": {
-    "@compodoc/compodoc": "^1.1.21",
+    "@compodoc/compodoc": "^2.0.0",
     "@jest/globals": "^30.0.0",
     "@nestjs/microservices": "11.x",
     "@nestjs/platform-express": "^11.0.0",
