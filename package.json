@@ -40,7 +40,7 @@
     "prettier": "^3.0.0",
     "testcontainers": "^12.0.0",
     "ts-jest": "29.x.x",
-    "typescript": "6.x"
+    "typescript": "7.x"
   },
   "dependencies": {
     "@nestjs/common": "11.1.28",
